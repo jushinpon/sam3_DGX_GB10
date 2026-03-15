@@ -19,10 +19,10 @@ BPE_PATH = SAM3_REPO / "sam3" / "assets" / "bpe_simple_vocab_16e6.txt.gz"
 CHECKPOINT_DIR = SAM3_REPO / "checkpoints"
 
 # 你的測試圖片
-IMAGE_PATH = Path("/home/dongye/spark_test/sam_test/crowd.jpg")
+IMAGE_PATH = Path("./crowd.jpg")
 
 # 輸出資料夾
-OUTPUT_DIR = Path("/home/dongye/spark_test/sam_test/output")
+OUTPUT_DIR = Path("./output")
 
 # 自己定義 prompt
 TEXT_PROMPT = "woman"
